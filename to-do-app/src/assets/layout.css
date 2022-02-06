@@ -1,0 +1,61 @@
+.header {
+    background-color: rgba(0, 153, 204, 0.3);
+    width: 60%;
+    margin: 2px auto;
+    border: 1px solid black;
+    height: 100px;
+    display: block;
+}
+
+.content {
+    transition: linear .3s;
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    border: 1px solid black;
+    min-height: 700px;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background-color: rgba(0, 153, 204, 0.3);
+    width: 60%;
+    margin: 5px auto;
+    border: 1px solid black;
+    height: 40px;
+    display: block;
+}
+
+.todoItemDivColor:hover {
+    background-color: #ffcd3a;
+    cursor: pointer !important;
+    transition: linear .3s;
+}
+
+.todoItemNewDivColor {
+    background: #adb5bd;
+}
+
+.todoItemDoneDivColor {
+    background: #4dd4ac;
+}
+
+.todoItemDivColor {
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-togglebutton.p-button .p-button-icon-left, .p-togglebutton.p-button .p-button-icon-right {
+    color: #fff !important;
+}
+
+.field-radiobutton {
+    margin: 0 10px;
+}
